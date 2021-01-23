@@ -10,8 +10,8 @@ body {
 }
 
 #welcome {
+
     position: absolute;
-    overflow: hidden;
     height: 800px;
     color: #FFFFFF;
     left: 0;
@@ -23,7 +23,7 @@ body {
     display: table;
     width: 100%;
     height: 100%;
-    z-index: 9;
+    z-index: 9
 }
 
 
@@ -31,15 +31,16 @@ body {
 h1 {
 
     font-size: 40px;
-    line-height: 1.2;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     font-weight: 300;
+    
 }
 
 #name {
     font-size: 30px;
     line-height: 1.2;
     font-family: 'Cinzel Decorative', cursive;
+
 }
 
 h2 {
@@ -50,10 +51,9 @@ h2 {
 }
 
 #bio {
-
+font-family: 'Yusei Magic', sans-serif;
     padding: 50px;
     text-align: center;
-    font-size: 42px;
 }
 
 .line {
@@ -65,7 +65,8 @@ h2 {
 
 
 p {
-    max-width: 450px;
+    font-family: 'Yusei Magic', sans-serif;
+    max-width: 600px;
     margin: 25px auto;
     font-size: 17px;
     line-height: 1.3;
@@ -79,6 +80,8 @@ p {
     vertical-align: middle;
 
 }
+
+
 .menu {
    
     list-style: none;
@@ -105,18 +108,4 @@ p {
 
 .links:hover {
     background-color:dodgerblue;
-}
-
-
-html {
-    scroll-behavior: smooth;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-.article:hover {
-    color:fuchsia;
 }
